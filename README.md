@@ -39,6 +39,20 @@ Late orders recorded an average review score of 2.55 compared with 4.28 for on-t
 - `outputs/`: Excel analysis workbook and business deliverables.
 - `images/`: Selected charts and dashboard screenshots.
 
+## Dashboard & Visualizations
+
+# Monthly Order Trend
+![Monthly Orders](images/01_monthly_order_trend.png)
+
+# Delivery Performance
+![Delivery Status](images/02_orders_by_delivery_status.png)
+
+# Customer Mix
+![Customer Mix](images/03_observed_customer_mix.png)
+
+# Customer Ratings
+![Review Scores](images/04_average_review_by_delivery_status.png)
+
 ## Dataset
 Brazilian E-Commerce Public Dataset by Olist.
 
