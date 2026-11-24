@@ -88,10 +88,11 @@ Olist-Ecommerce-Business-Analysis/
 ├── README.md
 │
 ├── notebooks/
-│   └── olist_analysis.ipynb
+│   └── Olist_Ecommerce_Business_Analysis.ipynb
 │
 ├── outputs/
-│   └── Olist_Analysis.xlsx
+│   └── Olist_Ecommerce_Business_Analysis_Findings.xlsx
+│   └── Action Plan.pdf
 │
 └── images/
     ├── 01_monthly_order_trend.png
