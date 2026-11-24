@@ -1,69 +1,125 @@
-# Olist-Ecommerce-Business-Analysis
+# Olist E-commerce Business Analysis
 
-## Project Overview
-An end-to-end analysis of the Brazilian Olist E-commerce marketplace dataset to understand order trends, delivery performance, customer satisfaction and repeat purchasing.
+An end-to-end analysis of the Brazilian Olist E-commerce marketplace dataset to evaluate sales trends, delivery performance, customer satisfaction, and repeat purchasing behaviour.
 
-The project focuses on identifying business problems through data analysis and translating findings into practical recommendations.
+The project focuses on transforming raw e-commerce data into meaningful business insights and actionable recommendations using Python, Excel, and data visualization.
 
-## Business Objectives
-- Analyse monthly order trends and marketplace growth.
-- Evaluate the relationship between delivery performance and customer reviews.
-- Calculate observed repeat-customer behaviour.
-- Develop data-driven business recommendations.
+## 1. Project Objectives
 
-## Tools & Technologies
-- Python
-- Pandas and NumPy
-- Matplotlib and Seaborn
-- Microsoft Excel
-- Google Colab
+- Analyse monthly order trends to understand marketplace growth.
+- Evaluate the relationship between delivery performance and customer satisfaction.
+- Measure observed repeat-customer behaviour.
+- Identify potential operational and customer-retention improvement opportunities.
+- Present findings through an Excel dashboard and business recommendations.
 
-## Key Findings
+## 2. Tools & Technologies
 
-**1. Order Growth**
-Monthly orders increased from 800 in January 2017 to 7,544 in November 2017.
+| Category | Tools |
+|---|---|
+| Programming | Python |
+| Data Analysis | Pandas, NumPy |
+| Data Visualization | Matplotlib, Seaborn |
+| Spreadsheet Analysis | Microsoft Excel |
+| Development Environment | Google Colab |
 
-**2. Delivery Performance**
-Late orders recorded an average review score of 2.55 compared with 4.28 for on-time orders.
+## 3. Key Business Findings
 
-**3. Customer Retention**
-2,997 out of 96,096 unique customers placed more than one order, representing an observed repeat-customer rate of approximately 3.12%.
+### Finding 1: Order Growth
+Monthly orders increased from **800 in January 2017 to 7,544 in November 2017**, indicating substantial marketplace growth during this period.
 
-## Business Recommendations
-1. Investigate delivery performance across sellers, regions and product categories.
-2. Conduct targeted delivery-improvement pilots.
-3. Test customer-retention initiatives using comparison groups.
+### Finding 2: Delivery Performance & Customer Satisfaction
+- Late-delivery orders recorded an average review score of **2.55/5**.
+- On-time orders recorded an average review score of **4.28/5**.
 
-## Project Structure
-- `notebooks/`: Python analysis notebook.
-- `outputs/`: Excel analysis workbook and business deliverables.
-- `images/`: Selected charts and dashboard screenshots.
+This indicates a strong association between delivery performance and customer ratings, although it does not establish causation.
 
-## Dataset
-Brazilian E-Commerce Public Dataset by Olist.
+### Finding 3: Repeat Customer Behaviour
+- Total unique customers: **96,096**
+- Repeat customers: **2,997**
+- Observed repeat-customer rate: **3.12%**
 
-Source: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+The result highlights an opportunity to investigate customer retention and repeat purchasing.
 
-The original dataset contains anonymized historical e-commerce transactions.
+## 4. Dashboard & Visualizations
 
-## Dashboard & Visualizations
+The Excel dashboard provides a consolidated overview of marketplace performance, highlighting order volume, delivery efficiency, customer ratings and observed repeat purchasing.
 
-# Monthly Order Trend
-![Monthly Orders](images/01_monthly_order_trend.png)
+### Complete Excel Performance Dashboard
 
-# Delivery Performance
-![Delivery Status](images/02_orders_by_delivery_status.png)
+![Olist Performance Dashboard](images/olist_performance_dashboard.png)
 
-# Customer Mix
-![Customer Mix](images/03_observed_customer_mix.png)
+### 4.1 Monthly Order Trend
 
-# Customer Ratings
-![Review Scores](images/04_average_review_by_delivery_status.png)
+Shows changes in monthly order volume over the available historical period.
 
-## Important Note
-The findings are descriptive and observational. Associations between delivery performance and customer reviews do not establish causation. Repeat purchasing reflects the available historical observation period.
+![Monthly Order Trend](images/01_monthly_order_trend.png)
 
-## Author
+### 4.2 Delivery Performance
+
+Compares the number of orders delivered late and on time.
+
+![Orders by Delivery Status](images/02_orders_by_delivery_status.png)
+
+### 4.3 Customer Mix
+
+Displays the distribution of one-time and repeat customers.
+
+![Observed Customer Mix](images/03_observed_customer_mix.png)
+
+### 4.4 Customer Rating Comparison
+
+Compares average customer review scores between late and on-time deliveries.
+
+![Average Review Scores](images/04_average_review_by_delivery_status.png)
+
+## 5. Business Recommendations
+
+Based on the observed findings, the following actions are recommended:
+
+1. **Investigate Delivery Performance:** Analyse delivery delays across sellers, regions, and product categories to identify potential operational bottlenecks.
+2. **Conduct Targeted Improvement Pilots:** Test delivery-improvement initiatives in selected problem areas and measure their impact on delivery reliability and customer satisfaction.
+3. **Evaluate Customer Retention Initiatives:** Test follow-up engagement or second-purchase incentives using comparison groups to measure incremental repeat purchasing.
+
+## 6. Repository Structure
+
+```text
+Olist-Ecommerce-Business-Analysis/
+│
+├── README.md
+│
+├── notebooks/
+│   └── olist_analysis.ipynb
+│
+├── outputs/
+│   └── Olist_Analysis.xlsx
+│
+└── images/
+    ├── 01_monthly_order_trend.png
+    ├── 02_orders_by_delivery_status.png
+    ├── 03_observed_customer_mix.png
+    └── 04_average_review_by_delivery_status.png
+```
+
+## 7. Dataset
+
+**Dataset:** Brazilian E-Commerce Public Dataset by Olist
+
+**Source:** [Kaggle – Brazilian E-Commerce Public Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+
+The dataset contains anonymized historical e-commerce marketplace information, including orders, customers, products, sellers, payments, and reviews.
+
+## 8. Analytical Limitations
+
+- The analysis is based on historical data and reflects the available observation period.
+- Missing delivery dates were excluded from the relevant delivery-performance comparison.
+- The relationship between delivery timing and customer ratings is observational and does not establish causation.
+- The repeat-customer rate represents observed purchasing behaviour within the available dataset, not necessarily long-term customer retention.
+- September and October 2018 contain partial-month data and should not be directly compared with complete months.
+
+## 9. Author
+
 **Prateek Kumar**  
-Delhi Technological University  
-Production and Industrial Engineering
+Delhi Technological University (DTU)  
+B.Tech – Production and Industrial Engineering
+
+**Areas of Interest:** Business Analysis | Data Analytics | Process Improvement | Business Intelligence
