@@ -39,6 +39,13 @@ Late orders recorded an average review score of 2.55 compared with 4.28 for on-t
 - `outputs/`: Excel analysis workbook and business deliverables.
 - `images/`: Selected charts and dashboard screenshots.
 
+## Dataset
+Brazilian E-Commerce Public Dataset by Olist.
+
+Source: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+
+The original dataset contains anonymized historical e-commerce transactions.
+
 ## Dashboard & Visualizations
 
 # Monthly Order Trend
@@ -52,13 +59,6 @@ Late orders recorded an average review score of 2.55 compared with 4.28 for on-t
 
 # Customer Ratings
 ![Review Scores](images/04_average_review_by_delivery_status.png)
-
-## Dataset
-Brazilian E-Commerce Public Dataset by Olist.
-
-Source: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
-
-The original dataset contains anonymized historical e-commerce transactions.
 
 ## Important Note
 The findings are descriptive and observational. Associations between delivery performance and customer reviews do not establish causation. Repeat purchasing reflects the available historical observation period.
